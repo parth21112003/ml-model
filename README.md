@@ -16,3 +16,19 @@ source venv/bin/activate   // use . -> source in azure
 pip install -r requirements.txt
 python app.py
 
+To test:
+open "reqbin.com"
+add url/predict
+body :
+{
+  "input": [5.1, 3.5, 1.4, 0.2]
+}
+
+header:
+Key - Content-Type
+Value - application/json
+
+click send.
+
+expected output : "sentosa"
+
