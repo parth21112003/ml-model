@@ -16,6 +16,7 @@ source venv/bin/activate   // use . -> source in azure
 pip install -r requirements.txt
 python app.py
 
+before that check if all the required port(5000, 8080) are added in networking.
 To test:
 open "reqbin.com"
 add url/predict
